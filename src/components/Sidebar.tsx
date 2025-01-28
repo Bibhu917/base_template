@@ -6,7 +6,7 @@ const Sidebar = () => {
 
   return (
     <aside
-      className={`bg-gray-800 text-white w-[250px] h-[calc(100vh-8rem)] overflow-y-auto transition-all duration-300 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
+      className={`bg-gray-800 text-white w-[250px] h-[calc(100vh-0rem)] overflow-y-auto transition-all duration-300 ease-in-out ${isOpen ? "translate-x-0" : "-translate-x-full"}`}
     >
       <nav className="p-4">
         <ul>
